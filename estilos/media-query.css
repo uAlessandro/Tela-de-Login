@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* 
+   Paleta de Cores: 
+#1E5AA8  - Azul principal
+
+#0B2C5D - Azul escuro
+
+#F4F1EA - Branco quente
+
+#D9D2C3 - Bege claro
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    #login{
+        width: 80vw;
+    }
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    
+    }
+    #formulario{
+        float: right;
+        width:70% ;
+
+
+    }
+}
+
+    
