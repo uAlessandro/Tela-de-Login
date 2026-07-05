@@ -13,3 +13,41 @@
 
 
 */
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    background-color:#0B2C5D ;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#login{
+    background-color: #F4F1EA ;
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+#imagem{
+    background: #74777e url("../imagens/entrada-palacio.jpg") no-repeat;
+    display: block;
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    
+}
+#formulario{
+    display: block;
+    padding: 10px;
+}
