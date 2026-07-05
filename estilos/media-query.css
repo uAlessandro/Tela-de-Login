@@ -6,12 +6,15 @@
 
 #0B2C5D - Azul escuro
 
-#F4F1EA - Branco quente
+#ffffff - Branco 
 
 #D9D2C3 - Bege claro
 */
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    body{
+      background-image: linear-gradient(to top, #D9D2C3,#0B2C5D );
+    }
 
     #login{
         width: 80vw;
@@ -29,5 +32,31 @@
 
     }
 }
-
+@media screen and ( min-width: 1024px ) and (max-width: 1439px ) {
+    body{
+      background-image: linear-gradient(to top, #D9D2C3,#0B2C5D );
+    }
+    #login{
+        width: 70VW;
+    }
+    #imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    
+}
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    body{
+      background-image: linear-gradient(to top, #D9D2C3,#0B2C5D );
+    }
+    #login{
+        width: 50%;
+    }
+    #imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+}
     

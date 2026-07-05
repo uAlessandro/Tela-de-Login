@@ -3,11 +3,12 @@
 
 /* 
    Paleta de Cores: 
+
 #1E5AA8  - Azul principal
 
 #0B2C5D - Azul escuro
 
-#F4F1EA - Branco quente
+#ffffff - Branco quente
 
 #D9D2C3 - Bege claro
 
@@ -30,7 +31,7 @@ main{
     height: 100vh;
 }
 #login{
-    background-color: #F4F1EA ;
+    background-color: #ffffff ;
     width: 350px;
     height: 600px;
     position: absolute;
@@ -38,13 +39,19 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    border-radius: 5px;
+   transition: width 0.3s , height .0.3s;
+   transition-timing-function: ease;
+
 }
 #imagem{
-    background: #74777e url("../imagens/entrada-palacio.jpg") no-repeat;
+    background: #ffffff url("../imagens/entrada-palacio.jpg") no-repeat;
     display: block;
     height: 50%;
     width: 100%;
     background-size: cover;
+    background-position: 100%;
+   
     
 }
 #formulario{
