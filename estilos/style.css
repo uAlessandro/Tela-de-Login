@@ -34,7 +34,7 @@ main{
 #login{
     background-color: #ffffff ;
     width: 350px;
-    height: 600px;
+    height: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,7 +48,7 @@ main{
 #imagem{
     background: #ffffff url("../imagens/entrada-palacio.jpg") no-repeat;
     display: block;
-    height: 50%;
+    height: 40%;
     width: 100%;
     background-size: cover;
     background-position: 100%;
@@ -67,6 +67,80 @@ main{
     font-size: 30px;
 }
 span{
+    background-color: white;
    
 
+}
+.cadastro{
+    background-color: #0B2C5D;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px 0px;
+    
+  
+
+}
+label{
+    color: white;
+}
+
+#cadastro, input{
+    height: 40px;
+    width: 80%;
+    
+  
+
+  
+
+}
+#entrar{
+    width: 100%;
+    height: 40px;
+    background-color: #2591FE ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.8em;
+  
+}
+#entrar:hover{
+    background-color: #0B2C5D;
+
+
+}
+.cadastro ::placeholder{
+    font-size: 16px;
+}
+
+#esqueci-senha{
+    display: block;
+    background-color: #ffffff ;
+    width: 100%;
+    height: 40px;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid;
+    color: #2591FE;
+    
+
+}
+a>i{
+
+    position: relative;
+    top: 5px;
+    font-size: 10px;
+    
+}
+#esqueci-senha:hover {
+    background-color: #d9d2c350 ;
+
+    
+}
+span{
+    
 }

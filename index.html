@@ -21,28 +21,29 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <section class="cadastro">
 
-                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <span class="material-symbols-outlined">person</span>
 
                         <input type="email" name="email" id="iemail" placeholder="Digite seu email" required maxlength="30">
+                        <label for="iemail">Email</label>
 
                     </section>
 
                     <section class="cadastro">
 
-                        <label for="isenha"></label>
+                     
                         <span class="material-symbols-outlined">vpn_key</span>
                         
-                        
-                            
                         <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required    minlength="6" maxlength="20">
+                        <label for="isenha">Senha</label>
 
                     </section>
+                    
                     <section>
                         
-                        <input type="submit" value="Entrar">
-                        <span class="material-symbols-outlined">mail</span>
-                        <a href="">Esqueci a senha</a>
-                    </section>
+                        <input type="submit" value="Entrar" id="entrar">
+                       
+                        <a href="" id="esqueci-senha">Esqueci a senha  <i class="material-symbols-outlined">mail</i> </a>
+                    </section>  
 
 
 
