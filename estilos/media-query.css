@@ -17,46 +17,72 @@
     }
 
     #login{
-        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+        height: 500px;
     }
     #imagem{
-        float: left;
-        width: 30%;
+       
+        width: 40%;
         height: 100%;
     
+    }
+     #formulario {
+        width: 60%;
+        padding: 20px;
+        align-self: center;
+      
+
+
+    }
+    
+}
+   
+@media screen and ( min-width: 1024px ) and (max-width: 1199px ) {
+    body{
+      background-image: linear-gradient(to top, #D9D2C3,#0B2C5D );
+    }
+    #login{
+       display: flex;
+       flex-direction: row-reverse;
+        width: 65vw;
+        height: 550px;
+    }
+    #imagem{
+        
+        width: 45%;
+        height: 100%;
     }
     #formulario{
-        float: right;
-        width:70% ;
-
-
+        width: 55%;
+        height: 30px;
+        align-self: center;
     }
-}
-@media screen and ( min-width: 1024px ) and (max-width: 1439px ) {
+    }
+   
+
+@media screen and (min-width: 1200px)  {
     body{
       background-image: linear-gradient(to top, #D9D2C3,#0B2C5D );
     }
     #login{
-        width: 70VW;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 60%;
+        max-width: 950px;
+        height: 550px;
+       
     }
     #imagem{
-        float: right;
-        width: 40%;
+  
+        width: 45%;
         height: 100%;
     }
-    
-}
-@media screen and (min-width: 1440px)  {
-    body{
-      background-image: linear-gradient(to top, #D9D2C3,#0B2C5D );
-    }
-    #login{
-        width: 950px;
-    }
-    #imagem{
-        float: right;
-        width: 40%;
-        height: 100%;
+    #formulario{
+        width: 55%;
+        padding: 40px;
+        align-self: ;
     }
 }
     

@@ -19,7 +19,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-size: clamp(0.8rem,1vw, 1.3rem);
+    font-size: clamp(0.7rem,0.8vw, 0.8rem);
 }
 body,html{
     background-color:#0B2C5D ;
@@ -33,23 +33,30 @@ main{
 }
 #login{
     background-color: #ffffff ;
-    width: 350px;
-    height: 500px;
+    width: 300px;
+  height: 500px;
+   
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
+    overflow: auto;
     border-radius: 5px;
    transition: width 0.3s , height .0.3s;
    transition-timing-function: ease;
+   border: none;
 
+}
+
+h1{
+   
+    
 }
 #imagem{
     background: #ffffff url("../imagens/entrada-palacio.jpg") no-repeat;
     display: block;
     height: 40%;
-    width: 100%;
+    width: calc(100%-40%);
     background-size: cover;
     background-position: 100%;
     background-position:bottom;
@@ -67,28 +74,43 @@ main{
     font-size: 30px;
 }
 span{
-    background-color: white;
-   
+    font-size: 2em;
+    width: 40px;
+    padding: 7px;
+    color: white;
+  
 
 }
 .cadastro{
     background-color: #0B2C5D;
-  display: block;
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  margin: 5px 0px;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    margin: 5px 0px;
+  
+
     
   
 
+}
+.cadastro input:focus-within{
+    background-color: #ffffff ;
 }
 label{
     color: white;
 }
 
-#cadastro, input{
-    height: 40px;
-    width: 80%;
+.cadastro input{
+    height: 100%; 
+    flex: 1; 
+    outline: none;
+    padding: 0 10px;
+    border-radius: 8px;
+    font-size: clamp(0.9rem, 1.2vw, 1.4rem);
+    background-color: #e0dcd4 ;
+    
     
   
 
@@ -103,15 +125,18 @@ label{
     border: none;
     color: white;
     font-size: 1.8em;
+    
   
 }
 #entrar:hover{
     background-color: #0B2C5D;
-
+   
+   
 
 }
 .cadastro ::placeholder{
     font-size: 16px;
+    text-indent: 5px;
 }
 
 #esqueci-senha{
@@ -121,11 +146,12 @@ label{
     height: 40px;
     font-size: 1.8em;
     text-align: center;
-    margin-top: 5px;
-    border-radius: 5px;
+    margin-top: 2px;
+    border-radius: 8px;
     text-decoration: none;
     border: 1px solid;
     color: #2591FE;
+    border-radius: 8px;
     
 
 }
@@ -137,10 +163,8 @@ a>i{
     
 }
 #esqueci-senha:hover {
-    background-color: #d9d2c350 ;
+    background-color: #2592fe21 ;
+   
 
-    
-}
-span{
     
 }
