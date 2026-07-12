@@ -19,8 +19,8 @@
     #login{
         display: flex;
         flex-direction: row;
-        width: 85%;
-        height: 500px;
+        max-width: 700px;
+        height: 450px;
     }
     #imagem{
        
@@ -30,13 +30,13 @@
     }
      #formulario {
         width: 60%;
-        padding: 20px;
+        padding: 30px;
         align-self: center;
       
 
 
     }
-    
+   
 }
    
 @media screen and ( min-width: 1024px ) and (max-width: 1199px ) {
@@ -55,8 +55,8 @@
         height: 100%;
     }
     #formulario{
-        width: 55%;
-        height: 30px;
+        width: 30px;
+        height: auto;
         align-self: center;
     }
     }
@@ -82,7 +82,7 @@
     #formulario{
         width: 55%;
         padding: 40px;
-        align-self: ;
+        align-self: center ;
     }
 }
     

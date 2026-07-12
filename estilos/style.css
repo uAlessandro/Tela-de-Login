@@ -24,7 +24,7 @@
 body,html{
     background-color:#0B2C5D ;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 main{
     position: relative;
@@ -32,26 +32,26 @@ main{
     height: 100vh;
 }
 #login{
+   
     background-color: #ffffff ;
     width: 300px;
-  height: 500px;
-   
+    height: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: auto;
+    border: none;
     border-radius: 5px;
-   transition: width 0.3s , height .0.3s;
-   transition-timing-function: ease;
-   border: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s , height .0.3s;
+    transition-timing-function: ease;
+   
 
 }
 
-h1{
    
     
-}
+
 #imagem{
     background: #ffffff url("../imagens/entrada-palacio.jpg") no-repeat;
     display: block;
@@ -134,10 +134,7 @@ label{
    
 
 }
-.cadastro ::placeholder{
-    font-size: 16px;
-    text-indent: 5px;
-}
+
 
 #esqueci-senha{
     display: block;
