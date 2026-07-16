@@ -93,9 +93,9 @@ main{
 }
 .cadastro span{
     width: 40px;
-    padding: 7px;
+    padding: 9px;
     color: white;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .cadastro input:focus-within{
